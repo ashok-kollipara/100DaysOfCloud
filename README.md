@@ -14,20 +14,19 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Ashok Kollipara's Cloud Journey
 
-[✍️ Introduce yourself]
+I am currently on a sabbatical looking to return back to work and the advancements with cloud technologies caught my attention and I personally think this can be a great future career niche. 
 
-[✍️ Tell us why you started this challenge]
+Currenlty working towards AWS Cloud Developer Associate cerfitication and somehow felt that the hands on aspects were not so great by subscribing to online courses. Recently came across this challenge and find it very interesting which can also help with my cause of gathering a great hands on experience.
 
-[✍️ Tell us where you want to be at the end of the challenge]
+I have been a linux user in my personal machines for quite few years now and have picked up python during the course of last year and half. 
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [My LinkedIn - Ashok Kollipara](https://www.linkedin.com/in/ashok-kollipara)
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
+- [X] ☁️ 1 > [My First Day -  AWS ECS / ECR with Docker build](Journey/001/README.md)
 - [ ] ☁️ 2 > [](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
