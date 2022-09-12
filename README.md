@@ -27,7 +27,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 ## Stepping out the door
 
 - [X] ☁️ 1 > [My First Day -  AWS ECS / ECR with Docker build](Journey/001/README.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
+- [X] ☁️ 2 > [Push docker image to ECR via AWS CLI](Journey/002/README.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
