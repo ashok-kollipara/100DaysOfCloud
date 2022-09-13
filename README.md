@@ -28,7 +28,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 
 - [X] ☁️ 1 > [My First Day -  AWS ECS / ECR with Docker build](Journey/001/README.md)
 - [X] ☁️ 2 > [Push docker image to ECR via AWS CLI](Journey/002/README.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
+- [X] ☁️ 3 > [AWS CodePipeline - Part-1 - Code Deploy - NGINX on EC2](Journey/003/README.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
