@@ -10,15 +10,11 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
-
 ## Ashok Kollipara's Cloud Journey
 
 I am currently on a sabbatical looking to return back to work and the advancements with cloud technologies caught my attention and I personally think this can be a great future career niche. 
 
-Currenlty working towards AWS Cloud Developer Associate cerfitication and somehow felt that the hands on aspects were not so great by subscribing to online courses. Recently came across this challenge and find it very interesting which can also help with my cause of gathering a great hands on experience.
+Currenlty working towards **[AWS Certified Cloud Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/)** and somehow felt that the hands on aspects were not so great by subscribing to online courses. Recently came across this challenge and find it very interesting which can also help with my cause of gathering a great hands on experience.
 
 I have been a linux user in my personal machines for quite few years now and have picked up python during the course of last year and half. 
 
@@ -31,7 +27,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 3 > [AWS CodePipeline - Part-1 - Code Deploy - NGINX on EC2](Journey/003/README.md)
 - [X] ☁️ 4 > [AWS CloudFormation Kickoff - Fire an EC2 Instance](Journey/004/README.md)
 - [X] ☁️ 5 > [AWS Cloudwatch - Log Metrics and Alarms](Journey/005/README.md)
-- [ ] ☁️ 6 > [](Journey/006/Readme.md)
+- [X] ☁️ 6 > [Day-6 : AWS Monitoring - EventBridge, X-Ray and CloudTrail](Journey/006/README.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
