@@ -28,8 +28,8 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 4 > [AWS CloudFormation Kickoff - Fire an EC2 Instance](Journey/004/README.md)
 - [X] ☁️ 5 > [AWS Cloudwatch - Log Metrics and Alarms](Journey/005/README.md)
 - [X] ☁️ 6 > [AWS Monitoring - EventBridge, X-Ray and CloudTrail](Journey/006/README.md)
-- [X] ☁️ 7 > [Part-1 - Setup Architecture for producer/consumer with SQS Queue](Journey/007/README.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
+- [X] ☁️ 7 > [Thumbnail Generator - Part-1 - Setup Architecture for producer/consumer with SQS Queue](Journey/007/README.md)
+- [X] ☁️ 8 > [Thumbnail Generator - Part-2 - Python Boto3 SDK - Scripting for Architecture Integration](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
