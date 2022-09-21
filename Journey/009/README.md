@@ -194,6 +194,7 @@
   ```
 </details>
 
+**Demo GIF**
 
 ![Demo](assets/sdk_demo.gif)
 
