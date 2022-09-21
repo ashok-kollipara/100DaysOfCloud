@@ -30,7 +30,8 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 6 > [AWS Monitoring - EventBridge, X-Ray and CloudTrail](Journey/006/README.md)
 - [X] ☁️ 7 > [Thumbnail Generator - Part-1 - Setup Architecture for producer/consumer with SQS Queue](Journey/007/README.md)
 - [X] ☁️ 8 > [Thumbnail Generator - Part-2 - Python Boto3 SDK - Scripting for Architecture Integration](Journey/008/README.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [X] ☁️ 9 > [Thumbnail Generator - Part-3 - Integration code completion and demo / testing
+](Journey/009/README.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
