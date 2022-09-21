@@ -2,6 +2,7 @@
 
 import json
 import boto3
+from botocore.exceptions import ClientError
 from PIL import Image
 import mimetypes
 
@@ -73,9 +74,10 @@ def image_reduction(s_bucket, t_bucket, sourcefile, thumb_size):
 
         send_email(url)
 
-    except:
+    except ClientError as error:
 
         print('Failed Image processing or upload')
+        print(error)
 
 
 def process_queue(q_client, q_url, s_bucket, t_bucket, thumb_size):
