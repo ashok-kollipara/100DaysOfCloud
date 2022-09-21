@@ -1,0 +1,49 @@
+---
+Parameters:
+  Function:
+    Description: name of the lambda function
+    Type: String
+    Default: func-via-cloudformation
+
+Resources:
+  MyServerlessFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Ref Function
+      Description: Serverless function to return timezones
+      Architectures:
+        - x86_64
+      Runtime: python3.9
+      Role: !GetAtt MyLambdaExecRole.Arn
+      Handler: index.handler
+      Timeout: 3
+      Code:
+        ZipFile: |
+          import time
+          def handler(event, context):
+            normal, dst = time.tzname
+            return {
+              'statusCode': 200,
+              'TimeZoneNormal': normal,
+              'TimeZoneDST': dst
+              }
+
+  MyLambdaExecRole:
+    Type: AWS::IAM::Role
+    Properties:
+      Description: Lambda function execution role
+      RoleName: 
+        !Join 
+          - '-'
+          - - !Ref Function
+            - lambda
+            - execution
+            - role
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect : Allow
+            Principal:
+              Service: 
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'

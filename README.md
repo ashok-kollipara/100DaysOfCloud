@@ -32,7 +32,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 8 > [Thumbnail Generator - Part-2 - Python Boto3 SDK - Scripting for Architecture Integration](Journey/008/README.md)
 - [X] ☁️ 9 > [Thumbnail Generator - Part-3 - Integration code completion and demo / testing
 ](Journey/009/README.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [X] ☁️ 10 > [CloudFormation - Serverless Lambda Function Provisioning](Journey/010/README.md)
 
 ## Walking down the road
 
