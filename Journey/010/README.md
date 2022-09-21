@@ -119,23 +119,23 @@ $  aws cloudformation create-stack --stack-name lambda-py-tz --template-body fil
 
 ### Stack Created
 
-![Stack Created](assets/stack-creation-screen.png =500x500)
+![Stack Created](assets/stack-creation-screen.png)
 
 ### Role Created
 
-![Role Created](assets/role-creation-screen.png =500x500)
+![Role Created](assets/role-creation-screen.png)
 
 ### Function Created
 
-![Function Created](assets/function-created-screen.png =500x500)
+![Function Created](assets/function-created-screen.png)
 
 ### Function Code Loaded
 
-![Function Code Loaded](assets/func-code-screen.png =500x500)
+![Function Code Loaded](assets/func-code-screen.png)
 
 ### Function Result Working
 
-![Function Result](assets/func-result-screen.png =500x500)
+![Function Result](assets/func-result-screen.png)
 
 ## ☁️ Cloud Outcome
 
