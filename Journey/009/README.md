@@ -22,7 +22,7 @@
 ## Cloud Research
 
 - Understanding the difference between SDK services
-    - [Low-level client] (https://boto3.amazonaws.com/v1/documentation/api/latest/guide/clients.html)
+    - [Low-level client](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/clients.html)
     - [Resource](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/resources.html) 
 
 - Difficulty in obtaining the required topic ARN for SNS with Topic Name
