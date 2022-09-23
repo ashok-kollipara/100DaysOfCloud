@@ -37,7 +37,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 ## Walking down the road
 
 - [X] ☁️ 11 > [AWS Lambda - Invocation types and Event Source Mapping](Journey/011/README.md)
-- [ ] ☁️ 12 > [](Journey/012/Readme.md)
+- [X] ☁️ 12 > [Lambda with external dependencies - Deployment Packages](Journey/012/README.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
