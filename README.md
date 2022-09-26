@@ -39,7 +39,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 11 > [AWS Lambda - Invocation types and Event Source Mapping](Journey/011/README.md)
 - [X] ☁️ 12 > [Lambda with external dependencies - Deployment Packages](Journey/012/README.md)
 - [X] ☁️ 13 > [Fix Internet access, Lambda Layers, Versions and Aliases](Journey/013/README.md)
-- [ ] ☁️ 14 > [](Journey/014/Readme.md)
+- [X] ☁️ 14 > [DynamoDB basics - Tables, RCU, WCU and Indexes](Journey/014/README.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
