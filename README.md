@@ -30,8 +30,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 6 > [AWS Monitoring - EventBridge, X-Ray and CloudTrail](Journey/006/README.md)
 - [X] ☁️ 7 > [Thumbnail Generator - Part-1 - Setup Architecture for producer/consumer with SQS Queue](Journey/007/README.md)
 - [X] ☁️ 8 > [Thumbnail Generator - Part-2 - Python Boto3 SDK - Scripting for Architecture Integration](Journey/008/README.md)
-- [X] ☁️ 9 > [Thumbnail Generator - Part-3 - Integration code completion and demo / testing
-](Journey/009/README.md)
+- [X] ☁️ 9 > [Thumbnail Generator - Part-3 - Integration code completion and demo / testing](Journey/009/README.md)
 - [X] ☁️ 10 > [CloudFormation - Serverless Lambda Function Provisioning](Journey/010/README.md)
 
 ## Walking down the road
@@ -40,7 +39,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 12 > [Lambda with external dependencies - Deployment Packages](Journey/012/README.md)
 - [X] ☁️ 13 > [Fix Internet access, Lambda Layers, Versions and Aliases](Journey/013/README.md)
 - [X] ☁️ 14 > [DynamoDB basics - Tables, RCU, WCU and Indexes](Journey/014/README.md)
-- [ ] ☁️ 15 > [](Journey/015/Readme.md)
+- [X] ☁️ 15 > [Bookmarks Sync - Part-1 - Architecture plan and Cloudformation Nested stacks](Journey/015/README.md)
 - [ ] ☁️ 16 > [](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
