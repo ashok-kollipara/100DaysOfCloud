@@ -40,7 +40,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 13 > [Fix Internet access, Lambda Layers, Versions and Aliases](Journey/013/README.md)
 - [X] ☁️ 14 > [DynamoDB basics - Tables, RCU, WCU and Indexes](Journey/014/README.md)
 - [X] ☁️ 15 > [Bookmarks Sync - Part-1 - Architecture plan and Cloudformation Nested stacks](Journey/015/README.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md)
+- [X] ☁️ 16 > [Bookmarks Sync - Part-2 - Resolved Cloudformation issues with Testing](Journey/016/README.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)

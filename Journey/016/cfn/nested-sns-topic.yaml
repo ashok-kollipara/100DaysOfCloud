@@ -1,0 +1,19 @@
+---
+Parameters:
+  SNSTopicName:
+    Type: String
+    Description: Name of the SNS Topic to be used for Lambda process completion notification
+    Default: notify-bookmark-update
+
+Resources:
+  DynSNSTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: !Ref SNSTopicName
+
+  NotifySubscription:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Endpoint: test@example.com
+      Protocol: email
+      TopicArn: !Ref DynSNSTopic

@@ -1,0 +1,29 @@
+---
+Parameters:
+  DatabaseTableName:
+    Type: String
+    Description: Name of the database table to store URL details
+    Default: Bookmarks-sync
+  
+Resources: 
+  BookmarksTable: 
+    Type: AWS::DynamoDB::Table
+    Properties: 
+      AttributeDefinitions: 
+        - 
+          AttributeName: "SNo"
+          AttributeType: "S"
+        - 
+          AttributeName: "DateAddedTS"
+          AttributeType: "N"
+      KeySchema: 
+        - 
+          AttributeName: "SNo"
+          KeyType: "HASH"
+        - 
+          AttributeName: "DateAddedTS"
+          KeyType: "RANGE"
+      ProvisionedThroughput: 
+        ReadCapacityUnits: "1"
+        WriteCapacityUnits: "1"
+      TableName: !Ref DatabaseTableName
