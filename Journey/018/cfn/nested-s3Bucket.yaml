@@ -1,0 +1,21 @@
+---
+Parameters:
+  bucketName:
+    Type: String
+    Description: Name of the S3 bucket to hold bookmarks base file
+    Default: bookmark-csv-store
+
+Resources:
+  BookmarksBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref bucketName
+      VersioningConfiguration:
+        Status: Enabled
+
+Outputs:
+  S3BucketDetails:
+    Description: Exporting created bucket details for the stack
+    Value: !GetAtt BookmarksBucket.Arn
+    Export:
+      Name: S3BucketNameArn

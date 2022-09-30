@@ -1,0 +1,28 @@
+---
+Parameters:
+  NestedStackName:
+    Type: String
+    Default: BookmarksRootStack
+    Description: Name of the root stack nesting individual stacks
+
+Resources:
+  LambdaStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://book-sync-source.s3.ap-south-1.amazonaws.com/nested-lambda.yaml
+
+  S3Stack:
+    Type: AWS::CloudFormation::Stack
+    DependsOn: LambdaStack
+    Properties:
+      TemplateURL: https://book-sync-source.s3.ap-south-1.amazonaws.com/nested-s3Bucket.yaml
+
+  SNSTopicStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://book-sync-source.s3.ap-south-1.amazonaws.com/nested-sns-topic.yaml
+
+  DynoTableStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://book-sync-source.s3.ap-south-1.amazonaws.com/nested-dynamodb.yaml
