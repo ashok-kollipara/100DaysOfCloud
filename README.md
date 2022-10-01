@@ -43,7 +43,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 16 > [Bookmarks Sync - Part-2 - Resolved Cloudformation issues with Testing](Journey/016/README.md)
 - [X] ☁️ 17 > [Bookmarks Sync - Part-3 - Python - Lambda code completion and debugging ](Journey/017/README.md)
 - [X] ☁️ 18 > [Bookmarks Sync - Part-4 - Make Lambda work with CSV and halt project](Journey/018/README.md)
-- [ ] ☁️ 19 > [](Journey/019/Readme.md)
+- [X] ☁️ 19 > [Theory Day - Step Functions, State Machines and I/O processing](Journey/019/README.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
 ## Crossing the bridge
