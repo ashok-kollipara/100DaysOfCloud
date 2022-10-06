@@ -14,7 +14,7 @@
 
 I am currently on a sabbatical looking to return back to work and the advancements with cloud technologies caught my attention and I personally think this can be a great future career niche. 
 
-Currenlty working towards **[AWS Certified Cloud Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/)** and somehow felt that the hands on aspects were not so great by subscribing to online courses. Recently came across this challenge and find it very interesting which can also help with my cause of gathering a great hands on experience.
+Currently working towards **[AWS Certified Cloud Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/)** and somehow felt that the hands on aspects were not so great by subscribing to online courses. Recently came across this challenge and find it very interesting which can also help with my cause of gathering a great hands on experience.
 
 I have been a linux user in my personal machines for quite few years now and have picked up python during the course of last year and half. 
 
@@ -44,7 +44,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 17 > [Bookmarks Sync - Part-3 - Python - Lambda code completion and debugging ](Journey/017/README.md)
 - [X] ☁️ 18 > [Bookmarks Sync - Part-4 - Make Lambda work with CSV and halt project](Journey/018/README.md)
 - [X] ☁️ 19 > [Theory Day - Step Functions, State Machines and I/O processing](Journey/019/README.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md)
+- [X] ☁️ 20 > [Certification Practice tests](Journey/020/README.md)
 
 ## Crossing the bridge
 
