@@ -1,0 +1,55 @@
+---
+Parameters:
+  Function:
+    Description: name of the lambda function
+    Type: String
+    Default: time-to-bed
+  S3BucketParam:
+    Type: String
+    Default: naa-deployment-bucket
+  S3KeyParam:
+    Type: String
+    Default: time2bed.zip
+
+Resources:
+  MyServerlessFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Ref Function
+      Description: Serverless function to work in state machine
+      Architectures:
+        - x86_64
+      Runtime: python3.9
+      Handler: lambda_function.lambda_handler
+      Role: !GetAtt MyLambdaExecRole.Arn
+      Timeout: 3
+      Code:
+        S3Bucket: !Ref S3BucketParam
+        S3Key: !Ref S3KeyParam
+
+  MyLambdaExecRole:
+    Type: AWS::IAM::Role
+    Properties:
+      Description: Lambda function execution role
+      RoleName: 
+        !Join 
+          - '-'
+          - - !Ref Function
+            - lambda
+            - execution
+            - role
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect : Allow
+            Principal:
+              Service: 
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+
+Outputs:
+  FuncDetails:
+    Description: Lambda function for state machine
+    Value: !GetAtt MyServerlessFunction.Arn
+    Export:
+      Name: StepFunctionArn

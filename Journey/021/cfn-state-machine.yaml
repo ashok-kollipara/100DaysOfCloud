@@ -1,0 +1,52 @@
+---
+Parameters:
+  StateMachineTitle:
+    Description: name of the state machine
+    Type: String
+    Default: SleepAction
+  S3BucketParam:
+    Type: String
+    Default: naa-deployment-bucket
+  S3KeyParam:
+    Type: String
+    Default: time2bed.json
+
+Resources:
+  StateMachineDojo:
+    Type: AWS::StepFunctions::StateMachine
+    Properties:
+      StateMachineName : !Ref StateMachineTitle
+      DefinitionS3Location:
+        Bucket: !Ref S3BucketParam
+        Key: !Ref S3KeyParam
+      DefinitionSubstitutions:
+        LambdaStepFunc : !ImportValue StepFunctionArn
+      RoleArn: !GetAtt MyStateMachineExecRole.Arn
+
+  MyStateMachineExecRole:
+    Type: AWS::IAM::Role
+    Properties:
+      Description: StateMachine Execution Role
+      RoleName: 
+        !Join 
+          - '-'
+          - - !Ref StateMachineTitle
+            - statemachine
+            - execution
+            - role
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect : Allow
+            Principal:
+              Service: 
+                - !Sub states.${AWS::Region}.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Policies:
+        - PolicyName: StateMachine2Lambda
+          PolicyDocument:
+            Statement:
+              - Effect : Allow
+                Action: 
+                  - 'lambda:InvokeFunction'
+                Resource: !ImportValue StepFunctionArn

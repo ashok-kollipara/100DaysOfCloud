@@ -1,0 +1,12 @@
+{
+    "Comment" : "Practice state machine ASL code from scratch",
+    "StartAt" : "Timecheck",
+    "States" : {
+        "Timecheck" : {
+            "Type" : "Task",
+            "Resource" : "${LambdaStepFunc}",
+            "End" : true,
+            "ResultPath" : "$.taskresult"
+        }
+    }
+}
