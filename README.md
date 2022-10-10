@@ -49,7 +49,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 ## Crossing the bridge
 
 - [X] ☁️ 21 > [CloudFormation and State Machines deployment](Journey/021/README.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
+- [X] ☁️ 22 > [AWS CDK - Concepts, Documentation and installation](Journey/022/README.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
