@@ -51,7 +51,7 @@ I have been a linux user in my personal machines for quite few years now and hav
 - [X] ☁️ 21 > [CloudFormation and State Machines deployment](Journey/021/README.md)
 - [X] ☁️ 22 > [AWS CDK - Concepts, Documentation and installation](Journey/022/README.md)
 - [X] ☁️ 23 > [Milestone-1 - Passed - AWS Certified Developer Associate](Journey/023/README.md)
-- [ ] ☁️ 24 > [](Journey/024/Readme.md)
+- [X] ☁️ 24 > [Resume API - Part-1 - First Steps towards making API with Flask](Journey/024/README.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
